@@ -1,4 +1,4 @@
-// Brute for approach
+// Brute for approach using two for loop
 class Solution{
     public:
         int maxarea(vector<int>&height){
