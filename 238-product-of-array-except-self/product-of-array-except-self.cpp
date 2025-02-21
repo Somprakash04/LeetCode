@@ -1,4 +1,4 @@
-//
+// Brute force approach
 class Solution{
     public:
          vector<int> productExceptSelf(vector<int>&nums){
@@ -14,7 +14,7 @@ class Solution{
             return ans;
           }
 };
-//
+// Optimal approach
 class Solution {
 public:
     vector<int> productExceptSelf(vector<int>& nums) {
