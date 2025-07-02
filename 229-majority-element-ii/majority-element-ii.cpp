@@ -16,7 +16,10 @@ public:
                 ans.push_back(nums[i]);
                 s.insert(nums[i]);
             }
+        
         }
+        if (ans.size() == 2 && ans[0] > ans[1])
+        swap(nums[0], nums[1]);
         return ans;
     }
 };
