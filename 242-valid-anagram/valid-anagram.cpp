@@ -1,13 +1,6 @@
 class Solution {
 public:
     bool isAnagram(string s, string t) {
-        /* --Brute Force approach--
-        if( s.size() != t.size()) return false;
-        sort(s.begin(),s.end());
-        sort(t.begin(),t.end());
-        return s == t;*/
-        
-        //Better approach--
         if( s.size() != t.size()) return false;
         vector<int>count(26,0);
 
